@@ -1,0 +1,15 @@
+[package]
+name = "cs-lecture-notes"
+version = "0.1.0"
+entrypoint = "lib.typ"
+authors = ["Thrasos Charalambous <@thrasosc>"]
+license = "MIT-0"
+description = "An all-in-one template for taking Computer Science lecture notes"
+repository = "https://github.com/yourusername/cs-lecture-notes"
+categories = ["report"]
+disciplines = ["computer-science"]
+
+[template]
+path = "template"
+entrypoint = "main.typ"
+thumbnail = "thumbnail.png"
